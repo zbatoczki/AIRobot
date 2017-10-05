@@ -134,7 +134,7 @@ void loop()
     // ST0.write(power0);
     ST1.write(power1);
     
-    delay(Ts);
+    delay(Ts/4);
 
   encoder0PinALast = n;
   valNew = encoder0Pos;
